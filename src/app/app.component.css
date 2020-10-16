@@ -1,0 +1,82 @@
+.header{
+  background-color: grey;
+  padding: 10px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.game-wrapper{
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  width: fit-content;
+}
+.player-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-arrow{
+  width:50px;
+  min-height: 50px;
+  height: 50px;
+}
+
+.player-label {
+  text-align: center;
+  font-size: 35px;
+}
+
+.gameboard {
+  display: grid;
+  width: fit-content;
+  padding: 15px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px ;
+  background-color: blue;
+}
+
+.winner-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 40.25%;
+  width: 300px;
+  height: 150px;
+  background-color: bisque;
+  border-radius: 5px;
+  border: wheat 5px solid;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.restart-button {
+  width: 100px;
+  margin: 15px;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px ;
+  height: 100px ;
+}
+.stone {
+  width:90px ;
+  height:90px ;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
